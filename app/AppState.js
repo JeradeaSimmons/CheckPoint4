@@ -2,8 +2,23 @@ import { EventEmitter } from "./Utils/EventEmitter.js"
 import { isValidProp } from "./Utils/isValidProp.js"
 
 class AppState extends EventEmitter {
-  /** @type {import('./Models/Value').Value[]} */
-  values = []
+
+  /** @type {import('./Models/Weather.js').Weather} */
+  weather = {}
+  /** @type {import('./Models/Quote.js').Quote} */
+  quote = {}
+  /** @type {import('./Models/BackGround.js').BackGround} */
+  backGround = ''
+  /** @type {import('./Models/Todos.js').Todos} */
+  todos = ""
+
+
+
+
+
+
+
+
 }
 
 export const ProxyState = new Proxy(new AppState(), {

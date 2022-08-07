@@ -1,1 +1,75 @@
 /* BASIC STYLES HERE */
+.weatherRow{
+    height: 20vh
+    
+}
+
+.welcomeRow{
+    height: 40vh
+}
+
+body{
+background-position: center;
+background-size: cover;
+
+
+
+
+}
+
+.todoCard{
+    height: 100%;
+    background-color: dimgrey;
+    
+}
+
+
+
+.text{
+
+    text-shadow: 10rem;
+    font-size: large;
+    font-weight: bolder;
+    color: azure;
+    outline-offset: 15px;
+}
+
+.clock{
+    font-size: 5em;
+    font-family: fantasy;
+    text-decoration: solid;
+}
+.weather{
+    font-size: 3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+.cards{
+    background-color: dimgrey;
+    border-color: black;
+    opacity: 50%;
+    
+}
+.weatherCard{
+    background-color: dimgrey;
+    border-bottom-left-radius: 40%;
+    
+    
+}
+
+.quoteText{
+    font-size: larger;
+}
+
+.hide{
+    display: none;
+}
+
+.showAuthor:hover + .hide{
+    display: block;
+    color: azure;
+
+}
